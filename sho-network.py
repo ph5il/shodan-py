@@ -5,7 +5,7 @@ import shodan
 SHODAN_API_KEY = "your key here"
 api = shodan.Shodan(SHODAN_API_KEY)
 # open output file
-outfile = open("shodan-ruan.txt", "w") 
+outfile = open("shodan-results.txt", "w") 
 
 # set network to shodan
 network = '12.22.148.'
